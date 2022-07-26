@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  StretchyTableViewHeader
-//
-//  Created by Эдуард Дума on 26.07.2022.
-//
-
 import UIKit
 
 @main

@@ -13,7 +13,7 @@
 		231F0E072890041B0075AAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231F0E052890041B0075AAA3 /* Main.storyboard */; };
 		231F0E092890041C0075AAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231F0E082890041C0075AAA3 /* Assets.xcassets */; };
 		231F0E0C2890041C0075AAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231F0E0A2890041C0075AAA3 /* LaunchScreen.storyboard */; };
-		231F0E142890060A0075AAA3 /* ScretchyTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0E132890060A0075AAA3 /* ScretchyTable.swift */; };
+		231F0E142890060A0075AAA3 /* ScretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0E132890060A0075AAA3 /* ScretchyHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		231F0E082890041C0075AAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		231F0E0B2890041C0075AAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		231F0E0D2890041C0075AAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		231F0E132890060A0075AAA3 /* ScretchyTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScretchyTable.swift; sourceTree = "<group>"; };
+		231F0E132890060A0075AAA3 /* ScretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScretchyHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				231F0DFF2890041B0075AAA3 /* AppDelegate.swift */,
 				231F0E012890041B0075AAA3 /* SceneDelegate.swift */,
 				231F0E032890041B0075AAA3 /* ViewController.swift */,
-				231F0E132890060A0075AAA3 /* ScretchyTable.swift */,
+				231F0E132890060A0075AAA3 /* ScretchyHeader.swift */,
 				231F0E052890041B0075AAA3 /* Main.storyboard */,
 				231F0E082890041C0075AAA3 /* Assets.xcassets */,
 				231F0E0A2890041C0075AAA3 /* LaunchScreen.storyboard */,
@@ -144,7 +144,7 @@
 				231F0E042890041B0075AAA3 /* ViewController.swift in Sources */,
 				231F0E002890041B0075AAA3 /* AppDelegate.swift in Sources */,
 				231F0E022890041B0075AAA3 /* SceneDelegate.swift in Sources */,
-				231F0E142890060A0075AAA3 /* ScretchyTable.swift in Sources */,
+				231F0E142890060A0075AAA3 /* ScretchyHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
