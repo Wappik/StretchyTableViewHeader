@@ -8,6 +8,34 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return tableView
     }()
     
+    let models = [
+        "New York",
+        "London",
+        "Hong Kong",
+        "Seattle",
+        "Simferopol",
+        "New York",
+        "London",
+        "Hong Kong",
+        "Seattle",
+        "Simferopol",
+        "New York",
+        "London",
+        "Hong Kong",
+        "Seattle",
+        "Simferopol",
+        "New York",
+        "London",
+        "Hong Kong",
+        "Seattle",
+        "Simferopol",
+        "New York",
+        "London",
+        "Hong Kong",
+        "Seattle",
+        "Simferopol",
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,12 +47,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 100
+        return models.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell",
                                                  for: indexPath)
+        cell.textLabel?.text = models[indexPath.row]
         return cell
     }
 
